@@ -1,3 +1,3 @@
-# Landing Page
+# Tela de login
 
-Este é um repositório de um site landing page feito em conjunto com o meu amigo santanna.
+Projeto front-end HTML e CSS com o meu amigo [Sauan Santana](https://github.com/SauanSantana).
