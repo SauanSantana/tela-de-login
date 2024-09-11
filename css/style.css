@@ -55,6 +55,11 @@
         margin-bottom: 15px;
         user-select: none;
     }
+    .forgot-password{
+        text-decoration: none;
+        color: #04BF9D;
+        margin-left: 10px;
+    }
     .login-area {
         margin-top: 100px;
         padding-bottom: 300px;
@@ -79,6 +84,10 @@
     }
     button:hover {
         background-image: linear-gradient(to right,#29f8d2, #046b61ab);
+    }
+    .create-account{
+        text-decoration: none;
+        color: #04BF9D;
     }
 }
 @media screen and (max-width: 800px) and (min-width: 100px) {
