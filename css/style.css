@@ -3,7 +3,7 @@
         font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: center;
-        height: 98.5vh;
+        height: 100vh;
         background-image: linear-gradient(to bottom,#04BF9D, #003d37);   
     }
     form {
@@ -52,7 +52,7 @@
         text-align: center;
         padding-top: 50px;
     }
-    
+
     button {
         margin-top: 20px;
         padding: 10px;
@@ -62,7 +62,7 @@
         cursor: pointer;
         font-size: 16px;
         color: white;
-    }
+    }  
 }
 @media screen and (max-width: 800px) and (min-width: 100px) {
     /* code */
@@ -72,7 +72,7 @@
         justify-content: center;
         text-align: center;
         align-items: center;
-        height: 200vh;
+        height: 96vh;
         background-image: linear-gradient(to bottom, #7E1EE6, #A66AE6, #C01EE6);  
     }
     .login-area {
