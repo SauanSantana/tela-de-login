@@ -171,4 +171,8 @@
         font-size: 16px;
         color: white;
     }
+    .create-account{
+        text-decoration: none;
+        color: #04BF9D;
+    }
 }
