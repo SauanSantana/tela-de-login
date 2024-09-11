@@ -12,8 +12,18 @@
         margin-left: 100px;
         margin-right: 100px;
     }
+    .input-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .icon-user {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
     .user-textarea {
-        padding-left: 5px;
+        padding-left: 40px;
         padding-right: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -24,8 +34,13 @@
         outline-style: none;
         border-style: solid;
     }
+    .icon-pass {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
     .user-password {
-        padding-left: 5px;
+        padding-left: 40px;
         padding-right: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -52,7 +67,6 @@
         text-align: center;
         padding-top: 50px;
     }
-
     button {
         margin-top: 20px;
         padding: 10px;
@@ -62,6 +76,9 @@
         cursor: pointer;
         font-size: 16px;
         color: white;
+    }
+    button:hover {
+        background-image: linear-gradient(to right,#29f8d2, #046b61ab);
     }
 }
 @media screen and (max-width: 800px) and (min-width: 100px) {
@@ -81,8 +98,18 @@
         margin-left: 50px;
         margin-right: 50px;
     }
+    .input-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .icon-user {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
     .user-textarea {
-        padding-left: 5px;
+        padding-left: 40px;
         padding-right: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -93,8 +120,13 @@
         outline-style: none;
         border-style: solid;
     }
+    .icon-pass {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
     .user-password {
-        padding-left: 5px;
+        padding-left: 40px;
         padding-right: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
