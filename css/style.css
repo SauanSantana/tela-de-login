@@ -1,68 +1,21 @@
 @media screen and (max-width: 2100px) and (min-width: 768px) {
     .container {
-        font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: center;
         height: 100vh;
+    }
+    .container  {
         background-image: linear-gradient(to bottom,#04BF9D, #003d37);   
     }
-    form {
-        display: flex;
-        flex-direction: column;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .user-textarea {
-        padding-left: 5px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        margin-bottom: 10px;
-
-        border-radius: 15px;
-        outline-style: none;
-        border-style: solid;
-    }
-    .user-password {
-        padding-left: 5px;
-        padding-right: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        margin-bottom: 10px;
-
-        border-radius: 15px;
-        outline-style: none;
-        border-style: solid;
-    }
-    .checkbox-container {
-        text-align: start;
-        margin-bottom: 15px;
-        user-select: none;
-    }
     .login-area {
-        padding-bottom: 300px;
+        padding-top: 10px;
+        padding-bottom: 100px;
         text-align: center; 
         background-color: white;
-        border-radius: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
     .login-title {
         text-align: center;
-        padding-top: 50px;
-    }
-
-    button {
-        margin-top: 20px;
-        padding: 10px;
-        background-image: linear-gradient(to right,#04BF9D, #059c8d);  
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        color: white;
-    }  
+    }   
 }
 @media screen and (max-width: 800px) and (min-width: 100px) {
     /* code */
@@ -73,7 +26,7 @@
         text-align: center;
         align-items: center;
         height: 96vh;
-        background-image: linear-gradient(to bottom, #7E1EE6, #A66AE6, #C01EE6);  
+        background-image: linear-gradient(to bottom,#04BF9D, #003d37); 
     }
     .login-area {
         width: 230px;
@@ -82,7 +35,7 @@
         padding-bottom: 10px; 
         align-items: center;
         justify-content: center;
-        background-color: #FF81D0;
+        background-color: whit;
         border-radius: 20px;
         
     }
