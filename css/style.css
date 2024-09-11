@@ -1,5 +1,5 @@
 @media screen and (max-width: 2100px) and (min-width: 768px) {
-  .container {
+    .container {
         font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: center;
@@ -68,67 +68,68 @@
     /* code */
    
    .container {
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
         display: flex;
         justify-content: center;
-        text-align: center;
-        align-items: center;
-        height: 96vh;
+        height: 100vh;
         background-image: linear-gradient(to bottom,#04BF9D, #003d37); 
     }
-    .login-area {
-        width: 230px;
-        height: 300px;
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .user-textarea {
+        padding-left: 5px;
+        padding-right: 50px;
         padding-top: 10px;
-        padding-bottom: 10px; 
-        align-items: center;
-        justify-content: center;
-        background-color: whit;
-        border-radius: 20px;
+        padding-bottom: 10px;
+
+        margin-bottom: 10px;
+
+        border-radius: 15px;
+        outline-style: none;
+        border-style: solid;
     }
-    .login-title{
-        font-size: 1.5em;
-        color: #45214A;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    .user-password {
+        padding-left: 5px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-bottom: 10px;
+
+        border-radius: 15px;
+        outline-style: none;
+        border-style: solid;
     }
-    .user-textarea{
-        margin: 5px;
-        padding: 10px;
-        border-radius: 5px;
-        border: 2px solid black;
-        background-color: rgba(211, 211, 211, 0.716);
-        font-size: 10;
+
+    .checkbox-container {
+        text-align: start;
+        margin-bottom: 15px;
+        user-select: none;
     }
-    .user-password{
-        padding: 10px;
-        border-radius: 5px;
-        border: 2px solid black;
-        background-color: rgba(211, 211, 211, 0.716);
-        font-size: 10;
+    .login-area {
+        padding-bottom: 50px;
+        text-align: center; 
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     }
-    .user-textarea:hover{
-        background-color: #8787879e;
-        transition: 0.9s;
+    .login-title {
+        text-align: center;
+        padding-top: 25px;
     }
-    .user-password:hover {
-        background-color: #8787879e;
-        transition: 0.9s;      
-    }
-    .checkbox-container{
-        text-align: left;
-        margin-left: 18px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        color: #45214A;
-    }
-    button{
-        border: 2px solid black;
+    button {
         margin-top: 20px;
-        font-size: 25px;
-        border-radius: 8px;
-        background-color: rgba(211, 211, 211, 0.71);
-    
+        padding: 10px;
+        background-image: linear-gradient(to right,#04BF9D, #059c8d);  
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
     }
-    button:hover{
-        background-color: rgb(211, 211, 211);
-        transition: 0.9s;
-    }
-    }
+}
