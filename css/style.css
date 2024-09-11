@@ -3,7 +3,7 @@
         font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: center;
-        height: 98.5vh;
+        height: 100vh;
         background-image: linear-gradient(to bottom,#04BF9D, #003d37);   
     }
     form {
@@ -42,7 +42,7 @@
         user-select: none;
     }
     .login-area {
-        padding-bottom: 400px;
+        padding-bottom: 300px;
         text-align: center; 
         background-color: white;
         border-radius: 10px;
@@ -52,7 +52,7 @@
         text-align: center;
         padding-top: 50px;
     }
-    
+
     button {
         margin-top: 20px;
         padding: 10px;
