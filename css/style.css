@@ -142,6 +142,11 @@
         margin-bottom: 15px;
         user-select: none;
     }
+    .forgot-password{
+        text-decoration: none;
+        color: #04BF9D;
+        margin-left: 10px;
+    }
     .login-area {
         margin-top: 200px;
         padding-bottom: 50px;
