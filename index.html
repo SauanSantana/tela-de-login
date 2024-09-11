@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +16,20 @@
         <div class="login-area">
             <h2 class="login-title">Login to continue!</h2>
             <form action="#">
+                <div class="input-container">
+                    <i class="icon-user">
+                        <img src="assets/user-icon.png" alt="User icon" width="20" height="20">
+                    </i>
+                    <input name="username" class="user-textarea" placeholder="User" type="text" required>
+                </div>
 
-                <input name="username" class="user-textarea" placeholder="User" type="text" required>
-                <input name="password" class="user-password" placeholder="Password" type="password" required>
-                
+                <div class="input-container">
+                    <i class="icon-pass">
+                        <img src="assets/password-icon.png" alt="User icon" width="20" height="20">
+                    </i>
+                    <input name="password" class="user-password" placeholder="Password" type="password" required>
+                </div>
+                                
                 <div class="checkbox-container">
                     <input type="checkbox" name="remember" id="remember">
                     <label for="remember">Remember me</label>
