@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Telalogg">
+    <meta property="og:description" content="Telalogg: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum!">
+    <meta property="og:image" content="ico/logo.png">
+    <meta property="og:url" content="https://telalogg.vercel.app">
+    <link rel="shortcut icon" href="ico/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Tela de login</title>
+</head>
+<body class="container">
+    <div>
+        <div class="login-area">
+            <h2 class="login-title">Login to continue!</h2>
+            
+            <form action="#">
+                <div class="input-container">
+                    <i class="icon-user">
+                        <img src="assets/user-icon.png" alt="User icon" width="20" height="20">
+                    </i>
+                    <input name="username" class="user-textarea" placeholder="User" type="text" required>
+                </div>
+
+                <div class="input-container">
+                    <i class="icon-pass">
+                        <img src="assets/password-icon.png" alt="User icon" width="20" height="20">
+                    </i>
+                    <input name="password" class="user-password" placeholder="Password" type="password" required>
+                </div>
+                                
+                <div class="checkbox-container">
+                    <!--remember-->
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                    <!--end remember-->
+
+                    <!--Forgot password-->
+                    <a class="forgot-password" href="#">Forgot password?</a>
+                    <!--end Forgot password-->
+                </div>
+                <button type="submit">Login</button>
+                <!--Create an Account-->
+                <p>New Here?<a class="create-account" href="#"> Create an Account</a></p>
+                <!--end Create an Account-->
+            </form>
+        </div>
+    </div>
+</body>
+</html>
