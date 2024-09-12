@@ -1,0 +1,26 @@
+@media screen and (max-width: 2100px) and (min-width: 768px) {
+    .container {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(to left,#04BF9D, #003d37);   
+    }
+    .forgot-pass-container {
+        background-color: white;
+
+        border-radius: 20px;
+        margin-top: 100px;
+        padding-bottom: 200px;
+
+        text-align: center;
+        align-items: center;
+    }
+    .forgot-description {
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .description {
+        color: grey;
+    }
+}
