@@ -42,7 +42,7 @@
         transform: translateY(-50%);
         width: 24px;
         height: 24px;
-        background: url('/public/assets/img/email-icon.png') no-repeat center center;
+        background: url('../../assets/img/email-icon.png') no-repeat center center;
         background-size: contain;
     }
     .input-field {
