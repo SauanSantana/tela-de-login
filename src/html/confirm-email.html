@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/confirm-email.css">
+    <link rel="shortcut icon" href="../../assets/img/email-icon.png" type="image/x-icon">
     <title>Confirm e-mail</title>
 </head>
 <body class="container">
@@ -16,8 +17,14 @@
             </p>
         </div>
         <form action="#">
-            <input type="email" name="Confirm e-mail" id="#">
-            <input type="submit" value="Submit">
+            <div class="input-container">
+                <i class="icon-email">
+                    <img src="../../assets/img/email-icon.png" alt="Email icon" width="30" height="30">
+                </i>
+                <input name="e-mail" type="email" placeholder="Confirm e-mail" id="#" class="input-field" required>
+            </div>
+            
+            <button type="submit">Submit</button>
 
             <a href="login.html">Back to login</a>
         </form>
