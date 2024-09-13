@@ -7,11 +7,9 @@
     }
     .forgot-pass-container {
         background-color: white;
-
         border-radius: 20px;
         margin-top: 100px;
         padding-bottom: 200px;
-
         text-align: center;
         align-items: center;
     }
@@ -28,11 +26,101 @@
         text-align: center;
     }
     .input-container {
+        position: relative;
+        display: inline-block;
+    }
+    .input-container .input-field{
+        padding-left: 30px; 
+        width: 100%;
+        box-sizing: border-box; 
+    }
+    .input-container::before{
+        content: "";
+        position: absolute;
+        top: 19px;
+        left: 4px;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background: url('/public/assets/img/email-icon.png') no-repeat center center;
+        background-size: contain;
+    }
+    .input-field {
+        padding-left: 40px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        outline-style: none;
+        border-style: solid;
+}
+    .btn-submit{
+        margin-top: 20px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-image: linear-gradient(to right,#04BF9D, #059c8d);  
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+}
+    .btn-submit:hover{
+        background-image: linear-gradient(to right,#29f8d2, #046b61ab);
+}
+    .Back-to-login{
+        text-decoration: none;
+        color: #04BF9D;
+}
+}
+@media screen and (max-width: 800px) and (min-width: 100px){
+    .container {
+        font-family: 'Roboto', sans-serif;
         display: flex;
+        text-align: center;
         align-items: center;
         justify-content: center;
+        background-image: linear-gradient(to left,#04BF9D, #003d37);   
+    }
+    .forgot-pass-container {
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 100px;
+        padding-bottom: 200px;   
+    }
+    .forgot-description {
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .icon-email {
+        padding-left:1px;
+        text-align: center;
+    }
+    .icon-email {
+       padding-left: 30px;
+    }
+    .input-container {
+        position: relative;
+        display: inline-block;
+    }
+    .input-container .input-field{
+        padding-left: 30px; 
         width: 100%;
-        /* padding: 5px; */
+        box-sizing: border-box; 
+    }
+    .input-container::before{
+        content: "";
+        position: absolute;
+        top: 20px;
+        left: 4px;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background: url('/public/assets/img/email-icon.png') no-repeat center center;
+        background-size: contain;
     }
     .input-field {
         padding-left: 40px;
@@ -45,5 +133,24 @@
         border-radius: 15px;
         outline-style: none;
         border-style: solid;
+    }
+    .btn-submit{
+        margin-top: 20px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-image: linear-gradient(to right,#04BF9D, #059c8d);  
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+    }
+    .btn-submit:hover{
+        background-image: linear-gradient(to right,#29f8d2, #046b61ab);
+    }
+    .Back-to-login{
+        text-decoration: none;
+        color: #04BF9D;
     }
 }
