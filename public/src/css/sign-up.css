@@ -79,7 +79,7 @@ border-radius: 15px;
    margin-right: -30px;
 }
 
-a .links{
+a {
     color: var(--color-six);
 }
 a.links:hover{
