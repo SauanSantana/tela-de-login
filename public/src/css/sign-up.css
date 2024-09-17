@@ -7,9 +7,6 @@
     --color-six:white;
 }
 
-
-
-
 @media screen and (max-width: 4000px) and (min-width: 768px) {
 body{
     background-color: var(--color-one);
