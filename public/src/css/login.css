@@ -1,15 +1,48 @@
+:root{
+    --color-one:#202022;
+    --color-two:#878787;
+    --color-three:#CACACA;
+    --color-four:#00BBC9;
+    --color-five:#00747C;
+    --color-six:white;
+}
 @media screen and (max-width: 2100px) and (min-width: 768px) {
-    .container {
+    body{
+        background-color: var(--color-one);
+    }
+    .main-container {
         font-family: 'Roboto', sans-serif;
         display: flex;
+        text-align: center;
+        align-items: center;
         justify-content: center;
-        background-image: linear-gradient(to left,#04BF9D, #003d37);   
+        flex-direction: row;
+        height: 97vh;
+    }
+    .aside-direito{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 50px;
+    }
+    .login-area {
+        padding-bottom: 20px;
+        text-align: center; 
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .login-title {
+        text-align: center;
+        padding-top: 20px;
     }
     form {
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .input-container {
         position: relative;
@@ -57,37 +90,28 @@
     }
     .forgot-password{
         text-decoration: none;
-        color: #04BF9D;
+        color: var(--color-four);
         margin-left: 10px;
     }
-    .login-area {
-        margin-top: 100px;
-        padding-bottom: 300px;
-        text-align: center; 
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    .login-title {
-        text-align: center;
-        padding-top: 50px;
-    }
+    
+    
     button {
         margin-top: 20px;
         padding: 10px;
-        background-image: linear-gradient(to right,#04BF9D, #059c8d);  
+        background-image: linear-gradient(to right, #00BBC9, #00747C );
         border: none;
         border-radius: 5px;
         cursor: pointer;
         font-size: 16px;
         color: white;
+        
     }
     button:hover {
-        background-image: linear-gradient(to right,#29f8d2, #046b61ab);
+        background-image: linear-gradient(to right, #00747C, #00BBC9);
     }
     .create-account{
         text-decoration: none;
-        color: #04BF9D;
+        color: var(--color-four);
     }
 }
 @media screen and (max-width: 800px) and (min-width: 100px) {
