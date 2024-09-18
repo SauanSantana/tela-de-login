@@ -12,13 +12,16 @@
         margin: 0 auto;
         padding: 5px;
     }
+    header{
+        background-color: var(--color-four);
+    }
     .nav-container{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         width: 98.2vw;
-        background-color: var(--color-four);
+        
     }
 
     li{
@@ -46,6 +49,7 @@
         justify-content: center;
         flex-direction: row;
         height: 76vh;
+        width: 96vw;
     }
 
     .img-cabeçalho{
