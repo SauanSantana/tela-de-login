@@ -9,6 +9,34 @@
 @media screen and (max-width: 2100px) and (min-width: 768px) {
     body{
         background-color: var(--color-one);
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 98.2vw;
+        background-color: var(--color-four);
+    }
+
+    li{
+        display: inline-block;
+        margin: 20px;
+        font-size: 20px;
+    }
+    a{
+        color: var(--color-six);
+    }
+    a.links:hover{
+        color: var(--color-six);
+        transition: 0.9s;
+        background-color: var(--color-one);
+        border-radius: 10px;
+        padding: 3px;
+        font-weight: 900;
+        margin-right: -8px;
     }
     .main-container {
         font-family: 'Roboto', sans-serif;
@@ -17,7 +45,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        height: 97vh;
+        height: 76vh;
+    }
+
+    .img-cabeçalho{
+        width: 70%;
     }
     .aside-direito{
         display: flex;
